@@ -22,6 +22,7 @@ setup(
         "cryptography>=3.5",
         "pyasn1",
         "asn1crypto",
+        'importlib_resources; python_version < "3.9"',
     ],
     entry_points={
         "console_scripts": [
